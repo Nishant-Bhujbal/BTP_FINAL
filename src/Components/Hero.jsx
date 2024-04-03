@@ -3,15 +3,15 @@ import "../Utils/Scrollbar.css"
 const Hero = () => {
   return (
     <div className="App">
+      <div style={{ width: '1580px', height: '1080px', overflow: 'hidden' }}>
         <iframe
-          title="example"
-          width="1570"
-          height="1000"
-          src="https://cvlab-zero123-live.hf.space"
+          title="ExternalContent"
+          src="https://cvlab-zero123-live.hf.space/"
+          style={{ width: '1580px', height: '1080px', marginTop: '-185px' }}
           allowFullScreen
-          style={{ border: '0', overflow : 'hidden' }}
         />
       </div>
+    </div>
   )
 }
 
